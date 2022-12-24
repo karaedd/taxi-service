@@ -1,6 +1,6 @@
-package mate.dao;
+package taxi.dao;
 
-import mate.model.Manufacturer;
+import taxi.model.Manufacturer;
 
 public interface ManufacturerDao extends GenericDao<Manufacturer> {
 }

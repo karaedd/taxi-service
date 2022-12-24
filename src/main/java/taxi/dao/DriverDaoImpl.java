@@ -1,4 +1,4 @@
-package mate.dao;
+package taxi.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -8,10 +8,10 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-import mate.exception.DataProcessingException;
-import mate.lib.Dao;
-import mate.model.Driver;
-import mate.util.ConnectionUtil;
+import taxi.exception.DataProcessingException;
+import taxi.lib.Dao;
+import taxi.model.Driver;
+import taxi.util.ConnectionUtil;
 
 @Dao
 public class DriverDaoImpl implements DriverDao {

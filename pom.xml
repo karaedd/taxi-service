@@ -21,7 +21,7 @@
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
-      <version>8.0.22</version>
+      <version>8.0.30</version>
     </dependency>
     <dependency>
       <groupId>javax.servlet</groupId>
@@ -36,23 +36,16 @@
     </dependency>
 
     <dependency>
-      <groupId>com.heroku.sdk</groupId>
-      <artifactId>heroku-maven-plugin</artifactId>
-      <version>3.0.4</version>
-    </dependency>
-
-    <dependency>
       <groupId>com.github.jsimone</groupId>
       <artifactId>webapp-runner</artifactId>
       <version>9.0.27.1</version>
       <scope>provided</scope>
     </dependency>
 
-
     <dependency>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-dependency-plugin</artifactId>
-      <version>3.2.0</version>
+      <version>3.4.0</version>
     </dependency>
 
   </dependencies>

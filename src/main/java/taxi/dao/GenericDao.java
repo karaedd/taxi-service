@@ -1,4 +1,4 @@
-package mate.dao;
+package taxi.dao;
 
 import java.util.List;
 import java.util.Optional;

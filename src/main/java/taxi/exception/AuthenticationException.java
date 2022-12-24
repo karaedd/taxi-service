@@ -1,4 +1,4 @@
-package mate.exception;
+package taxi.exception;
 
 public class AuthenticationException extends Exception {
 

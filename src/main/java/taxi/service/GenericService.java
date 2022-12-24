@@ -1,4 +1,4 @@
-package mate.service;
+package taxi.service;
 
 import java.util.List;
 

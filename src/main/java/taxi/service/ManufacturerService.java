@@ -1,6 +1,6 @@
-package mate.service;
+package taxi.service;
 
-import mate.model.Manufacturer;
+import taxi.model.Manufacturer;
 
 public interface ManufacturerService extends GenericService<Manufacturer> {
 }

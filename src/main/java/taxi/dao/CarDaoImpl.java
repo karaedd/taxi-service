@@ -1,4 +1,4 @@
-package mate.dao;
+package taxi.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -9,12 +9,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
-import mate.exception.DataProcessingException;
-import mate.lib.Dao;
-import mate.model.Car;
-import mate.model.Driver;
-import mate.model.Manufacturer;
-import mate.util.ConnectionUtil;
+import taxi.exception.DataProcessingException;
+import taxi.lib.Dao;
+import taxi.model.Car;
+import taxi.model.Driver;
+import taxi.model.Manufacturer;
+import taxi.util.ConnectionUtil;
 
 @Dao
 public class CarDaoImpl implements CarDao {
